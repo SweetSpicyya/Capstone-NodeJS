@@ -164,10 +164,3 @@ curl -i http://localhost:5001/api/health
 ```
 
 ---
-
-## 🗓️ Development Plan (5-Day Schedule)
-- **Day 1:** User API & basic CRUD
-- **Day 2:** Authentication API & JWT (`signToken`, `isAdmin` middleware)
-- **Day 3:** Shift API & Admin protection
-- **Day 4:** Comment API & User linkage
-- **Day 5:** Permission API, seeding, and Postman end-to-end testing
