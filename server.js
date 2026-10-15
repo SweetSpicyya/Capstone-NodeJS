@@ -30,6 +30,10 @@ const shiftRoutes = require('./modules/shift/ShiftRoute');
 app.use('/api/shifts', shiftRoutes);
 
 
+const commentRoutes = require('./modules/comment/CommentRoute');
+app.use('/api/comment', commentRoutes);
+
+
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
     console.log(`[Server running]: http://localhost:${PORT}`);
